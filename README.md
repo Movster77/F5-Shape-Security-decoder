@@ -1,8 +1,8 @@
 
 f5 shape's sensor on idp.movistar.com.ar. pins the bundle through mitmproxy,
 runs it in a headless chrome, scoops the chacha20 state out of the vm at
-runtime, then decrypts "-a" and the other five headers inside the login payload.
-ya gotta run mitmdump first
+runtime, then decrypts "-a" and the other five headers inside the login payload, -d seems to be the second most important one.
+ya gotta run mitmdump first to pin the relevant files to the page
 
 "r.json" ends up with the bundle constants up top (sigma, key, counter,
 alphabet) and a "sensor.decoded" object with each header broken out. "-a"

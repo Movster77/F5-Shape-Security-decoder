@@ -1,0 +1,16 @@
+{
+  "name": "shape-decoder",
+  "version": "1.0.0",
+  "description": "decoder for the f5 shape sensor on idp.movistar.com.ar",
+  "main": "extract_constants.js",
+  "scripts": {
+    "start": "node extract_constants.js"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

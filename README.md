@@ -10,7 +10,7 @@ becomes a list of tlv records. "-d"'s 22-byte signal descriptor gets a bit
 dump because that's where the probe flags live, even if the
 bit-to-probe-name table is mostly missing.
 
-some stuff to know if you'll try to reverse shape
+some stuff to know if you'll try to reverse shape.
 shape rotates the served bundle on every fetch and at least one of
 {sigma, counter} is per-rotation. the bundle in "pin/" is one snapshot.
 re-pinning a fresh fetch means re-running the patcher that adds the
